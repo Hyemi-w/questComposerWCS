@@ -1,0 +1,18 @@
+{
+    "name": "wilder9/composer_quete",
+    "authors": [
+        {
+            "name": "Elodie Billon",
+            "email": "elodie.billon1995@outlook.fr"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2",
+        "ehime/hello-world": "^1.0"
+    },
+
+
+    "autoload": {
+        "psr-4": {"App\\Wcs\\": "src/Wcs"}
+    }
+}
